@@ -36,9 +36,10 @@ public class Calculator
 
 	public void showResults()
 	{
-		for(float r : stk)
+		while(!stk.empty())
 		{
-			System.out.println(r);
+			System.out.println(stk.peek());
+			stk.pop();
 		}
 	}
 

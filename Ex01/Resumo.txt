@@ -1,0 +1,8 @@
+
+Classes: 
+Classe é a definição de algo, um objeto que possa ser abstraído, por exemplo, um celular, na classe podemos definir atributos, que são as caracteristicas do objeto que queremos definir, no caso do celular poderíamos ter atributos como créditos, bateria, modelo, etc, também temos os métodos, que são as ações que esse objeto pode realizar, que podem alterar ou não os atributos, por exemplo, o celular pode fazer uma ligação, através do método ligação(), consequentemente uma quantidade seria subtraída dos créditos do celular, junto com um pouco de bateria, talvez.
+
+Herança:
+Herança é o princípio que permite que novas classes "herdem" funções e atríbutos de outras classes já existentes, por exemplo, temos uma classe veículo, que define, a marca, o modelo, e o preço de um veículo, podemos fazer duas novas subclasses(classes que herdam de uma superclasse ou classe "mãe"), carro e moto, ambos terão os atríbutos e métodos de veículo, e poderão ter seus atributos próprios, como numero de portas para o carro, ou cilindradas para a moto. Esse processo permite poupar tempo já que reaproveita toda classe mãe também geram mais possibilidades já que é possível fazer classes que abragem um grande espaço de possibilidade como classes voltadas a questões mais específicas.
+
+Classe Abstrata:
